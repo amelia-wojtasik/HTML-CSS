@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.HTML,
+.CSS {
+    width: 50%;
+    height: 10vh;
+
+    display: block;
+    position: relative;
+    float: left;
+
+    font-size: 2rem;
+    text-align: center;
+
+    transition: .3s;
+    
+}
+
+.HTML {
+    background-color: black;
+    color: #bf51ba;
+}
+
+.CSS {
+    background-color: black;
+    color: #bf51ba;
+}
+
+.HTML a {
+    color: #bf51ba;
+}
+
+.CSS a {
+    color: #bf51ba;
+}
+
+a {
+    padding: 2%;
+
+    height: 10vh;
+
+    display: block;
+
+    text-decoration: none;
+    text-align: center;
+
+    transition: .3s;
+}
+
+.HTML a:hover {
+    background-color: #40173e;
+    color: white;
+}
+
+.CSS a:hover {
+    background-color: #40173e;
+    color: white;
+}
+
+.articles {
+    padding: 5%;
+    height: 100vh;
+}
+
+.title {
+    margin-top: 5%;
+    background-color: #40173e;
+    font-size: 4rem;
+    padding: 3%;
+    width: 60%;
+    border-radius: 20px;
+    color: white;
+}
+
+.title p {
+    width: 100%;
+    text-align: center;
+}
+
+.title1 {
+    font-size: 2.5rem;
+}
+
+.text1 {
+    margin-top: 1%;
+    padding: 2%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    color: #bf51ba;
+}
+
+.text2 {
+    margin:2% 0;
+    background-color: #40173e;
+    padding: 1%;
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text2 a {
+    color: #bf51ba;
+}
+
+.text3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 30%;
+}
+
+.text3 .left ul {
+    list-style: none;
+    
+}
+
+.obrazek{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.text3 .left ul li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+    background-color: #40173e;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    height: 20vh;
+}
+
+.right {
+    width: 69%;
+    margin-left: 1%;
+}
+
+.right p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 20vh;
+    color: #bf51ba;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 5%;
+}
+
+.footer a {
+    color: #bf51ba;
+    width: 20vw;
+}
+
+.p1{
+    border: #bf51ba dotted 6px;
+    text-align: center;
+}
+
+.p2{
+    border: #bf51ba dashed 6px;
+    text-align: center;
+}
+
+.p3{
+    border: #bf51ba solid 2px;
+    text-align: center;
+}
+
+.p4{
+    border: #bf51ba double 10px;
+    text-align: center;
+}
+
+.p5{
+    border: #bf51ba inset 5px;
+    text-align: center;
+}
+
+.p6{
+    border: #bf51ba outset 5px;
+    text-align: center;
+}
+
+/*******************************/
+
+@media only screen and (max-width:600px) {
+
+    body {
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        padding:20px;
+        margin-top: 50px;
+        background-color: #40173e;
+        font-size: 4rem;
+        width: 100%;
+        height: 30vh;
+        border-radius: 20px;
+        color: white;
+    }
+
+    .text3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left {
+        width: 40%;
+    }
+
+    .text3 .left ul {
+        list-style: none;
+    }
+
+    .text3 .left ul li {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.2rem;
+        background-color: #40173e;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 10px;
+        text-align: center;
+        border-radius: 20px;
+        height: 20vh;
+    }
+
+    img{
+        height:55vw;
+    }
+    
+    .right {
+        width: 60%;
+        margin-left: 1%;
+    }
+
+    .right p {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1rem;
+        height: 20vh;
+        color: #bf51ba;
+    }
+}

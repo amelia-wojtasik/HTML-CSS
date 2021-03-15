@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pl">
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>HTML - tabele</title>
+    <meta name="description" content="CSS/HTML course">
+    <meta name="author" content="Amelia Wojtasik">
+
+    <link rel="stylesheet" href="../css/HTML/listy.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav>
+
+            <div class="HTML">
+                <a href="../HTML.html">HTML</a>
+            </div>
+
+            <div class="CSS">
+                <a href="../CSS.html">CSS</a>
+            </div>
+
+        </nav>
+
+        <div class="img">
+        </div>
+
+        <div class="articles">
+
+            <div class="title">
+                <p>Tabele</p>
+            </div>
+
+            <div class="text1">
+                <p class="title1">Czym jest tabela?</p><br>
+                <p>Kolejnym sposobem prezentowania i grupowania danych w języku Html jest tabela. Sposób prezentowania danych w tabeli html jest taki sam jak w każdej innej tabeli, którą znamy z życia codziennego.</p>
+            </div>
+            
+            <div class="text3">
+
+                <div class="left">
+                    <ul>
+                        <li><code>&lt;table&gt;&lt;/table&gt;</code></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <p>Tabele tworzymy przy użyciu elementu &lt;table&gt;.</p>
+                </div>
+
+            </div>
+
+            <div class="text1">
+                <p class="title1">Wiersz</p><br>
+                <p>Jednak, żeby tabela powstała, musimy do niej dodać jeszcze wiersze oraz umieścić tam komórki. </p>
+            </div>
+
+            <div class="text3">
+
+                <div class="left">
+                    <ul>
+                        <li><code>&lt;tr&gt;&lt;/tr&gt;</code></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <p>Wiersze do tabeli dodajemy poprzez element &lt;tr&gt; (ang. table row – wiersz tabeli).</p>
+                </div>
+
+            </div>
+            
+             <div class="text1">
+                <p class="title1">Komórka</p><br>
+                <p>Żeby nasza tabela była kompletna i poprawnie wyświetlała dane, należy jeszcze dodać do niej komórki.</p>
+            </div>
+
+            <div class="text3">
+
+                <div class="left">
+                    <ul>
+                        <li><code>&lt;td&gt;&lt;/td&gt;</code></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <p>Komórki tabeli dodajemy poprzez element &lt;td&gt; (ang. table data, table cell – dane tabeli, komórka tabeli).</p>
+                </div>
+
+            </div>
+            
+            
+            <div class="text1">
+                <p class="title1">Nagłówek</p><br>
+                <p>Mamy już treść tabeli. Przydałoby się jeszcze oznaczyć czego dotyczą nasze dane. W tym celu posłużymy się nagłówkiem tabeli. </p>
+            </div>
+
+            <div class="text3">
+
+                <div class="left">
+                    <ul>
+                        <li><code>&lt;th&gt;&lt;/th&gt;</code></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <p>Nagłówek taki uzyskujemy poprzez zastosowanie elementu &lt;th&gt; (ang. table heading). Element ten stosujemy tak jak zwykłą komórkę tabeli, czyli &lt;td&gt;. Nagłówki również umieszczamy w wierszach tabeli, czyli elementach &lt;tr&gt;.</p>
+                </div>
+
+            </div>
+                         
+            <div class="text2">
+                <a href="../przyklady/tabela1.txt" target="_blank">Kliknij aby zobaczyć przykład</a>
+            </div>
+            
+            
+            
+             <div class="text1">
+                <p class="title1">Łączenie komórek</p><br>
+                <p>W przypadku, gdy jedna komórka odnosi się do więcej niż jednego nagłówka, możemy dokonać połączenia kilku komórek w jedną, żeby kilkukrotnie nie powtarzać jej wartości. Łączenie nie jest jednak najlepszym określeniem, w przypadku tabeli html. W zasadzie nie dokonujemy łączenia komórek, a zwiększenia ich rozpiętości w pionie lub poziomie.</p>
+            </div>
+
+            <div class="text3">
+
+                <div class="left">
+                    <ul>
+                        <li><code>&lt;td colspan="..."&gt;&lt;/td&gt;</code></li>
+                        
+                        <li><code>&lt;td rowspan="..."&gt;&lt;/td&gt;</code></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <p>W celu zwiększenia rozpiętości poziomej komórki używamy atrybutu colspan (ang. column span – rozpiętość kolumnowa komórki). Atrybut ten przyjmuje wartości liczbowe, tzn. przekazujemy tam jaką rozpiętość kolumnową (czyli w poziomie) ma posiadać dana komórka tabeli.</p>
+                    
+                    <p>Rozpiętość komórek możemy podawać nie tylko w poziomie, ale również w pionie, łącząc kolejne wiersze. W tym celu posłużymy się atrybutem rowspan (ang. row span – rozpiętość wierszowa komórki). Atrybut ten działa analogicznie do poprzedniego, tylko tym razem zwiększając rozpiętość komórki w pionie.</p>
+                </div>
+
+            </div>
+                         
+            <div class="text2">
+                <a href="../przyklady/tabela2.txt" target="_blank">Kliknij aby zobaczyć przykład</a>
+            </div>
+            
+            
+
+            <div class="footer">
+                <a href="../HTML.html">HTML</a>
+                <a href="../index.html">Home</a>
+                <a href="../CSS.html">CSS</a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body></html>

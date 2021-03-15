@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tytul</title>
+</head>
+
+</html>
+
+
+<body>
+
+<img src="zrodlo" alt="tekst alternatywny" title="tytul" width="100" height="100">
+
+</body>

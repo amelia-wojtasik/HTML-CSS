@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="pl">
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tytul</title>
+    <meta name="description" content="Opis strony">
+    <meta name="keywords" content="Slowa kluczowe">
+    <meta name="author" content="Autor">
+    <link rel="stylesheet" href="Sciezka do pliku CSS">
+    <link rel="icon" href="Sciezka do favicona">
+</head>
+
+</html>

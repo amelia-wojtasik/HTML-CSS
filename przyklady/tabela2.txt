@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tytul</title>
+</head>
+
+<body>
+
+
+
+<table>
+  <tr>
+    <th></th>
+    <th>Poniedzialek</th>
+    <th>Wtorek</th>
+  </tr>
+  <tr>
+    <th>18:00</th>
+    <td>Wariant 1</td>
+    <td>Wariant 2</td>
+  </tr>
+  <tr>
+    <th>20:00</th>
+    <td colspan="2">Wariant 3</td>
+  </tr>
+ </table>
+
+
+
+</body>
+
+</html>

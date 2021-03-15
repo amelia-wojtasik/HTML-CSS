@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tytul</title>
+</head>
+
+
+
+<body>
+
+	<figure>
+		
+		<img src="zrodlo" alt="obrazek">
+
+		<figcaption>Obrazek</figcaption>
+
+	</figure>
+
+</body>
+
+</html>

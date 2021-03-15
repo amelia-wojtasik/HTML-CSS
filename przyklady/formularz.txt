@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tytul</title>
+</head>
+
+<body>
+
+
+<form>
+  <label>Twoj Login <input type="text"></label>
+  <label>Twoj email <input type="email"></label>
+  <label>Twoje hasoo <input type="password"></label>
+  <input type="submit">
+</form>
+
+
+</body>
+
+</html>

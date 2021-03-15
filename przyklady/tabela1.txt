@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tytul</title>
+</head>
+
+<body>
+
+
+
+<table>
+  <tr>
+    <td><th>1 wiersz 1 kolumna</th></td>
+    <td>1 wiersz 2 kolumna</td>
+  </tr>
+  <tr>
+    <td><th>2 wiersz 1 kolumna<th></td>
+    <td>2 wiersz 2 kolumna</td>
+  </tr>
+</table>
+
+
+
+</body>
+
+</html>
